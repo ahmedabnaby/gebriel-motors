@@ -1,0 +1,784 @@
+/* PC AND LABTOP SCREENS*/
+
+@media (min-width: 1025px) and (max-width: 1279px) {
+    .nav-link
+    {
+      left:-25px;
+      font-size: 16px;
+      margin-left: 45px;
+    }
+    .carouselDIV
+    {
+      position: relative;
+      left: 20%;
+      height: auto !important;
+      /* height: 75vh !important; */
+    }
+    .carouselDIV h1
+    {
+      position: relative;
+      margin-top: 15px;
+      font-size: 100px;
+      width: 43%;
+      line-height: 100px;
+    }
+    .carouselDIV h3
+    {
+      position: relative;
+      margin-top: 35px;
+      font-size: 20px;
+      width: 45%;
+      text-align: left;
+      color: #f15632 !important;
+    }
+    .carouselDIV p
+    {
+      position: relative;
+      width: 25%;
+      font-size: 10px;
+      letter-spacing: 0.2px;
+      text-align: left;
+    }
+    .carouselDIV h4
+    {
+      font-size: 15px;
+    }
+    .sliderWIDTH
+    {
+      position: absolute;
+      top: 0px;
+      right: 30%;
+      z-index: -1;
+      width: 35% !important;
+    }
+    .rowWIDTH
+    {
+      width: 20%;
+    }
+    .iconWIDTH
+    {
+      width: 25px !important;
+    }
+    .icon2
+    { position: relative;
+      top: 5px !important;
+    }
+    .icon3
+    { position: relative;
+      top: 6px !important;
+    }
+    .icon4
+    { position: relative;
+      top: 8px !important;
+    }
+    .explore
+    {
+      position: relative;
+      top: 25px;
+      left: -2435px;
+      font-size: 16px;
+      width: 45%;
+    }
+    .contact-us
+    {
+      position: relative;
+      top: -155px;
+      left: 225px;
+      font-size: 25px;
+      letter-spacing: 0.5px;
+    }
+    .custom_indicators
+    {
+      position: relative;
+      left: -455px;
+      top: -325px;
+    }
+    .indicatorMARGIN
+    {
+      position: relative;
+      left: 12px !important;
+      color: #f15632 !important;
+      font-size: 25px !important;
+      font-family: "Resolve-RegularNrw";
+      letter-spacing: 3px;
+    }
+}
+@media (min-width: 1094px) and (max-width: 1279px) {
+  .nav-link
+  {
+    left:-15px;
+    font-size: 19px;
+    margin-left: 45px;
+  }
+  .contact-us
+  {
+    left: 265px;
+  }
+  .carouselDIV
+  {
+    height: 80vh !important;
+  }
+  .custom_indicators
+  {
+    left: -490px;
+  }
+}
+@media (min-width: 1280px) and (max-width: 1919px) {
+    .nav-link
+    {
+      left:15px;
+      font-size: 19px;
+      margin-left: 65px;
+    }
+    .carouselDIV
+    {
+      position: relative;
+      left: 18%;
+      /* height: auto !important; */
+      height: 80vh !important;
+    }
+    .carouselDIV h1
+    {
+      position: relative;
+      margin-top: 45px;
+      font-size: 140px;
+      width: 50%;
+      line-height: 120px;
+    }
+    .carouselDIV h3
+    {
+      position: relative;
+      margin-top: 35px;
+      font-size: 20px;
+      font-family: 'Suisse Int-semi-bold';
+      width: 45%;
+      text-align: left;
+      color: #f15632 !important;
+    }
+    .carouselDIV p
+    {
+      position: relative;
+      font-family: 'Suisse Int-regular';
+      width: 25%;
+      font-size: 13px;
+      letter-spacing: 0.2px;
+      text-align: left;
+    }
+    .sliderWIDTH
+    {
+      position: absolute;
+      top: 0px;
+      right: 25%;
+      z-index: -1;
+      width: 35% !important;
+    }
+    .rowWIDTH
+    {
+      width: 17%;
+    }
+    .iconWIDTH
+    {
+      width: 25px !important;
+    }
+    .icon2
+    { position: relative;
+      top: 5px !important;
+    }
+    .icon3
+    { position: relative;
+      top: 6px !important;
+    }
+    .icon4
+    { position: relative;
+      top: 8px !important;
+    }
+    .explore
+    {
+      position: relative;
+      top: 25px;
+      left: -545px;
+      font-size: 16px;
+      width: 45%;
+    }
+    .contact-us
+    {
+      position: relative;
+      top: -155px;
+      left:340px;
+      font-size: 25px;
+      letter-spacing: 0.5px;
+    }
+    .custom_indicators
+    {
+      position: relative;
+      left: -585px;
+      top: -205px;
+    }
+    .indicatorMARGIN
+    {
+      position: relative;
+      left: 12px !important;
+      color: #f15632 !important;
+      font-size: 20px !important;
+      font-family: "Resolve-RegularNrw";
+      letter-spacing: 3px;
+    }
+    .indicatorMARGIN span
+    {
+      position: relative;
+      left: 10px;
+    }
+}
+@media (min-width: 1366px) and (max-width: 1439px) {
+    .nav-link
+    {
+      left:55px;
+      font-size: 19px;
+      margin-left: 65px;
+    }
+    .explore
+    {
+      position: relative;
+      top: 25px;
+      left: -585px;
+      font-size: 16px;
+      width: 45%;
+    }
+    .contact-us
+    {
+      top: -205px;
+      left: 375px;
+    }
+    .custom_indicators
+    {
+      left: -625px;
+    }
+}
+@media (min-width: 1440px) and (max-width: 1679px) {
+    .nav-link
+    {
+      left:55px;
+      font-size: 19px;
+      margin-left: 65px;
+    }
+    .carouselDIV h1
+    {
+      font-size: 160px;
+    }
+    .carouselDIV h3
+    {
+      margin-top: 75px;
+      font-size: 23px;
+    }
+    .contact-us
+    {
+      top: -225px;
+      left: 390px;
+    }
+    .explore
+    {
+      left: -625px;
+    }
+    .custom_indicators
+    {
+      left: -660px;
+    }
+}
+@media (min-width: 1680px) and (max-width: 1919px) {
+    .nav-link
+    {
+      left:55px;
+      font-size: 19px;
+      margin-left: 65px;
+    }
+    .carouselDIV h1
+    {
+      font-size: 200px;
+      width: 55%;
+      line-height: 160px;
+    
+    }
+    .carouselDIV h3
+    {
+      margin-top: 75px;
+      font-size: 23px;
+    }
+    .contact-us
+    {
+      top: -225px;
+      left: 460px;
+    }
+    .explore
+    {
+      left: -750px;
+    }
+    .custom_indicators
+    {
+      left: -795px;
+    }
+}
+@media (min-width: 2064px) and (max-width: 2559px) {
+  
+  .explore{
+    left: -925px;
+  }
+  .custom_indicators
+  {
+    left: -955px;
+  }
+  .contact-us
+  {
+    left: 525px;
+  }
+}
+@media (min-width: 2560px) and (max-width: 3840px) {
+  .nav-link
+  {
+    position: relative;
+    left: 280px;
+    font-size: 23px;
+    color: #fff !important;
+    text-transform: uppercase;
+    font-family: 'Resolve-RegularNrw';
+    margin-left: 85px;
+  }
+    .carouselDIV h1
+    {
+      font-size: 200px;
+      width: 55%;
+      line-height: 160px;
+    }
+    .carouselDIV h3
+    {
+      margin-top: 75px;
+      font-size: 23px;
+    }
+    .contact-us
+    {
+      top: -225px;
+      left: 750px;
+    }
+    .explore
+    {
+      left: -1170px;
+    }
+    .custom_indicators
+    {
+      left: -1225px;
+    }
+    .sliderWIDTH
+    {
+      right: 22%;
+      width: 35% !important; 
+    }
+}
+@media (min-width: 2700px) and (max-width: 2965px) {
+  
+  .explore{
+    left: -1245px;
+  }
+  .custom_indicators
+  {
+    left: -1295px;
+  }
+  .contact-us
+  {
+    left: 625px;
+  }
+}
+
+@media (min-width: 2966px) and (max-width: 3260px) {
+  .explore{
+    left: -1375px;
+  }
+  .custom_indicators
+  {
+    left: -1375px;
+  }
+  .contact-us
+  {
+    left: 685px;
+  }
+}
+
+/* TABLETS *//* TABLETS *//* TABLETS *//* TABLETS *//* TABLETS *//* TABLETS *//* TABLETS *//* TABLETS *//* TABLETS *//* TABLETS *//* TABLETS *//* TABLETS *//* TABLETS *//* TABLETS */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .nav-link{
+    position: relative;
+    left: 0;
+    font-size: 18px;
+    margin-left: 43px;
+    }
+    .sidebarIMG
+    {
+      display: none;
+    }
+    .navbar-dark .navbar-toggler
+    {
+    color: #f15632 !important;
+    border-color: transparent !important;
+    }
+    .navbar-dark .navbar-toggler-icon
+    {
+      background-image: url('../images/sidebar.png') !important;
+    }
+  .carouselDIV
+  {
+    position: relative;
+    left: 17%;
+    height: auto !important;
+    /* height: 75vh !important; */
+  }
+  .carouselDIV h1
+  {
+    position: relative;
+    margin-top: 15px;
+    font-size: 100px;
+    width: 45%;
+    line-height: 100px;
+  }
+  .carouselDIV h3
+  {
+    position: relative;
+    margin-top: 35px;
+    font-size: 20px;
+    width: 45%;
+    text-align: left;
+    color: #f15632 !important;
+  }
+  .carouselDIV p
+  {
+    position: relative;
+    width: 25%;
+    font-size: 10px;
+    letter-spacing: 0.2px;
+    text-align: left;
+  }
+  .carouselDIV h4
+  {
+    top: 25px;
+    font-size: 15px;
+  }
+  .sliderWIDTH
+  {
+    position: absolute;
+    top: 0px;
+    right: 30%;
+    z-index: -1;
+    width: 35% !important;
+  }
+  .rowWIDTH
+  {
+    width: 25%;
+  }
+  .iconWIDTH
+  {
+    width: 22px !important;
+  }
+  .icon2
+  { position: relative;
+    top: 3px !important;
+  }
+  .icon3
+  { position: relative;
+    top: 5px !important;
+  }
+  .icon4
+  { position: relative;
+    top: 6px !important;
+  }
+  .explore
+  {
+    position: relative;
+    top: 25px;
+    left: -2435px;
+    font-size: 16px;
+    width: 45%;
+  }
+  .contact-us
+  {
+    position: relative;
+    top: -355px;
+    left: 295px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+  }
+  .arrowWIDTH
+  {
+    top: -7px !important;
+    left: 12px;
+  }
+  .custom_indicators
+  {
+    position: relative;
+    left: -455px;
+    top: -325px;
+  }
+  .indicatorMARGIN
+  {
+    position: relative;
+    left: 14px !important;
+    color: #f15632 !important;
+    font-size: 25px !important;
+    font-family: "Resolve-RegularNrw";
+    letter-spacing: 3px;
+  }
+} 
+
+@media (min-width: 991px) and (max-width: 1024px) {
+
+  .nav-link{
+  position: relative;
+  left: 0;
+  }
+  .sidebarIMG
+  {
+    display: none;
+  }
+  .navbar-dark .navbar-toggler
+  {
+  color: #f15632 !important;
+  border-color: transparent !important;
+  }
+  .navbar-dark .navbar-toggler-icon
+  {
+    background-image: url('../images/sidebar.png') !important;
+  }
+  .explore
+  {
+    left: -405px;
+  }
+  .contact-us
+  {
+    top: -195px;
+    left: 275px;
+  }
+}
+@media (min-width: 768px) and (max-width: 990px) {
+
+  .nav-link{
+  position: relative;
+  left: 0;
+  }
+  .sidebarIMG
+  {
+    display: none;
+  }
+  .navbar-dark .navbar-toggler
+  {
+  color: #f15632 !important;
+  border-color: transparent !important;
+  }
+  .navbar-dark .navbar-toggler-icon
+  {
+    background-image: url('../images/sidebar.png') !important;
+  }
+  .explore
+  {
+    left: -300px;
+  }
+  .contact-us
+  {
+    top: -325px;
+    left: 185px;
+  }
+  .custom_indicators
+  {
+    left: -318px;
+  }
+}
+
+@media (min-width: 830px) and (max-width: 990px) {
+
+  .nav-link{
+  position: relative;
+  left: 0;
+  }
+  .sidebarIMG
+  {
+    display: none;
+  }
+  .navbar-dark .navbar-toggler
+  {
+  color: #f15632 !important;
+  border-color: transparent !important;
+  }
+  .navbar-dark .navbar-toggler-icon
+  {
+    background-image: url('../images/sidebar.png') !important;
+  }
+  .explore
+  {
+    left: -330px;
+  }
+  .contact-us
+  {
+    top: -325px;
+    left: 185px;
+  }
+  .custom_indicators
+  {
+    left: -352px;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 990px) {
+
+  .explore
+  {
+    left: -330px;
+  }
+  .contact-us
+  {
+    top: -255px;
+    left: 205px;
+  }
+  .custom_indicators
+  {
+    left: -402px;
+  }
+}
+
+/*MOBILE PHONES*//*MOBILE PHONES*//*MOBILE PHONES*//*MOBILE PHONES*//*MOBILE PHONES*//*MOBILE PHONES*//*MOBILE PHONES*//*MOBILE PHONES*//*MOBILE PHONES*//*MOBILE PHONES*//*MOBILE PHONES*/
+
+@media only screen and (max-width: 767px)
+{
+    .logoIMG
+    {
+      margin-left: -20px;
+      width: 50%;
+    }
+    .nav-link
+    {
+    position: relative;
+    left: 0;
+    }
+    /* .navbar-nav
+    {
+      position: relative;
+      top: -45px;
+    } */
+    .sidebarIMG
+    {
+      display: none;
+    }
+    .navbar-brand
+    {
+      padding: 20px !important;
+      padding-left: 40px !important;
+    }
+    .navbar-dark .navbar-toggler
+    {
+      /* position: relative; */
+      /* top: -85px; */
+      /* left: 80%; */
+      color: #f15632 !important;
+      border-color: transparent !important;
+    }
+    .navbar-dark .navbar-toggler-icon
+    {
+      background-image: url('../images/sidebar.png') !important;
+    }
+    .carouselDIV
+    {
+      position: relative;
+      left: 2%;
+      height: auto !important;
+      padding: 25px;
+    }
+    .carouselDIV h1
+    {
+      position: relative;
+      margin-top: -35px;
+      font-size: 70px;
+      width: 100%;
+      line-height: 85px;
+    }
+    .carouselDIV h3
+    {
+      position: relative;
+      margin-top: 35px;
+      font-size: 20px;
+      width: 100%;
+      text-align: left;
+      color: #f15632 !important;
+    }
+    .carouselDIV p
+    {
+      position: relative;
+      width: 25%;
+      font-size: 10px;
+      width: 90%;
+      letter-spacing: 0.2px;
+      text-align: left;
+    }
+    .carouselDIV h4
+    {
+      font-size: 15px;
+    }
+    .sliderWIDTH
+    {
+      position: absolute;
+      top: 70px;
+      right: 15%;
+      z-index: -1;
+      width: 65% !important;
+    }
+    .rowWIDTH
+    {
+      width: 65%;
+    }
+    .iconWIDTH
+    {
+      width: 22px !important;
+    }
+    .icon2
+    { position: relative;
+      top: 3px !important;
+    }
+    .icon3
+    { position: relative;
+      top: 5px !important;
+    }
+    .icon4
+    { position: relative;
+      top: 6px !important;
+    }
+    .explore
+    {
+      position: relative;
+      top: 25px;
+      left: -2435px;
+      font-size: 16px;
+      width: 45%;
+    }
+    .contact-us
+    {
+      position: relative;
+      top: -175px;
+      left: 145px;
+      font-size: 20px;
+      letter-spacing: 0.5px;
+    }
+    .arrowWIDTH
+    {
+      top: -7px !important;
+      left: 12px;
+    }
+    .custom_indicators
+    {
+      position: relative;
+      left: -175px;
+      top: -345px;
+      display: none !important;
+    }
+    .indicatorMARGIN
+    {
+      position: relative;
+      left: 12px !important;
+      color: #f15632 !important;
+      font-size: 25px !important;
+      font-family: "Resolve-RegularNrw";
+      letter-spacing: 3px;
+    }
+}

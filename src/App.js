@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+import Navs from "./includes/Navbar"
 
-function App() {
+import Homepage from "./components/Homepage"
+
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+
+    <Router>
+      <div>
+        <Navs/>
+        <Routes>
+          <Route path='/' element={<Homepage/>} />
+          <Route path='/veichles' element={<Veichles/>} />
+          <Route path='/products' element={<Products/>} />
+          <Route path='/services' element={<Services/>} />
+          <Route path='/our-benfits' element={<Benfits/>} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
 
-export default App;
+function Products() {
+  return <h2>Products</h2>;
+}
+
+function Services() {
+  return <h2>Services</h2>;
+}
+
+function Veichles() {
+  return <h2>Veichles</h2>;
+}
+
+function Benfits() {
+  return <h2>Benfits</h2>;
+}

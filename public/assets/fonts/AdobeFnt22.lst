@@ -1,0 +1,156 @@
+%!Adobe-FontList 1.22
+%Locale:0x409
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Resolve-BoldCnIta
+FamilyName:Resolve-BoldCnIta
+StyleName:Regular
+FullName:Resolve Sans W05 Bold Cn Ita
+MenuName:Resolve-BoldCnIta
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\website Folder\Document fonts\Resolve-BoldCnIta.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:67524
+FileModTime:1600103952
+WeightClass:700
+WidthClass:2
+AngleClass:1
+NameArray:0,Mac,4,Resolve Sans W05 Bold Cn Ita
+NameArray:0,Win,1,Resolve-BoldCnIta
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Resolve-RegularCn
+FamilyName:Resolve-RegularCn
+StyleName:Regular
+FullName:Resolve Sans W05 Regular Cn
+MenuName:Resolve-RegularCn
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\website Folder\Document fonts\Resolve-RegularCn.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:63588
+FileModTime:1600104124
+WeightClass:400
+WidthClass:2
+AngleClass:0
+NameArray:0,Mac,4,Resolve Sans W05 Regular Cn
+NameArray:0,Win,1,Resolve-RegularCn
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Resolve-RegularNrw
+FamilyName:Resolve-RegularNrw
+StyleName:Regular
+FullName:Resolve Sans W05 Regular Nrw
+MenuName:Resolve-RegularNrw
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\website Folder\Document fonts\Resolve-RegularNrw.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:63668
+FileModTime:1600104216
+WeightClass:400
+WidthClass:4
+AngleClass:0
+NameArray:0,Mac,4,Resolve Sans W05 Regular Nrw
+NameArray:0,Win,1,Resolve-RegularNrw
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SuisseIntl-Light
+FamilyName:Suisse Int'l
+StyleName:Light
+FullName:Suisse Int'l Light
+MenuName:Suisse Int'l
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\website Folder\Document fonts\Suisse Int'l Light.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:159536
+FileModTime:1469383550
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Suisse Int'l Light
+NameArray:0,Mac,4,Suisse Int'l Light
+NameArray:0,Win,1,Suisse Int'l
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SuisseIntl-Regular
+FamilyName:Suisse Int'l
+StyleName:Regular
+FullName:Suisse Int'l Regular
+MenuName:Suisse Int'l
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\website Folder\Document fonts\Suisse Int'l Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:158936
+FileModTime:1469383622
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Suisse Int'l Regular
+NameArray:0,Mac,4,Suisse Int'l Regular
+NameArray:0,Win,1,Suisse Int'l
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:SuisseIntl-Semibold
+FamilyName:Suisse Int'l
+StyleName:Semibold
+FullName:Suisse Int'l Semibold
+MenuName:Suisse Int'l
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:D:\website Folder\Document fonts\Suisse Int'l SemiBold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:160292
+FileModTime:1469383910
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,18,Suisse Int'l Semibold
+NameArray:0,Mac,4,Suisse Int'l Semibold
+NameArray:0,Win,1,Suisse Int'l
+%EndFont
+

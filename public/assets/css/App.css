@@ -1,0 +1,223 @@
+html, body{
+  scroll-behavior: smooth;
+  background-color: black !important;
+  color: #fff !important;
+  overflow-x: hidden !important;
+}
+/* FONTS */
+@font-face {
+  font-family: 'Resolve-RegularNrw';
+  src: url(../fonts/Resolve-RegularNrw.otf);
+}
+
+@font-face {
+  font-family: 'Resolve-BoldCnIta';
+  src: url(../fonts/Resolve-BoldCnIta.otf);
+}
+
+@font-face {
+  font-family: 'Suisse Int-semi-bold';
+  src: url(../fonts/Suisse-Intl-SemiBold.otf);
+}
+
+@font-face {
+  font-family: 'Suisse Int-regular';
+  src: url(../fonts/Suisse-Intl-Regular.otf);
+}
+/* COLORS */
+/* Orange : #f15632 */
+
+/* CSS */
+
+.nav-link
+{
+  position: relative;
+  left: 280px;
+  font-size: 23px;
+  color: #fff !important;
+  text-transform: uppercase;
+  font-family: 'Resolve-RegularNrw';
+  margin-left: 85px;
+}
+.nav-link.active
+{
+  color: #f15632 !important;
+  text-decoration: underline;
+}
+.navbar-dark .navbar-nav .nav-link:hover
+{
+  color: #f15632 !important;
+}
+.navbar-brand
+{
+  padding: 40px !important;
+}
+.logoIMG
+{
+  width: 65%;
+}
+.sidebarIMG
+{
+  position: relative;
+  left: -40px;
+  width: 45px;
+  cursor: pointer;
+}
+.carouselDIV
+{
+  position: relative;
+  left: 18%;
+  /* height: auto !important; */
+  height: 80vh !important;
+}
+.carouselDIV h1
+{
+  position: relative;
+  margin-top: 115px;
+  font-size: 190px;
+  font-family: 'Resolve-BoldCnIta';
+  text-transform: uppercase;
+  width: 43%;
+  text-align: left;
+  line-height: 160px;
+}
+.carouselDIV h3
+{
+  position: relative;
+  margin-top: 35px;
+  font-size: 30px;
+  font-family: 'Suisse Int-semi-bold';
+  width: 45%;
+  text-align: left;
+  color: #f15632 !important;
+}
+.carouselDIV p
+{
+  position: relative;
+  font-family: 'Suisse Int-regular';
+  width: 25%;
+  font-size: 13px;
+  letter-spacing: 0.2px;
+  text-align: left;
+}
+.carouselDIV h4
+{
+  position: relative;
+  top: 55px;
+  font-size: 17px;
+  cursor: pointer;
+  text-decoration: underline;
+  font-family: 'Suisse Int-semi-bold';
+  text-align: left;
+  color: rgb(94, 94, 94) !important;
+}
+.carouselDIV h4:hover
+{
+  color: #f15632 !important;
+}
+.carouselDIV span
+{
+  color: #f15632 !important;
+}
+
+.iconWIDTH
+{
+  width: 45px !important;
+}
+.icon2
+{ position: relative;
+  top: 7px !important;
+}
+.icon3
+{ position: relative;
+  top: 10px !important;
+}
+.icon4
+{ position: relative;
+  top: 13px !important;
+}
+.rowWIDTH
+{
+  width: 15%;
+}
+/* .explore
+{
+  position: relative;
+  top: 55px;
+  left: -860px;
+  font-size: 19px;
+  font-family: 'Suisse Int-semi-bold';
+  width: 45%;
+  text-align: left;
+  color: rgb(94, 94, 94) !important;
+} */
+.explore:hover
+{
+  color: #f15632 !important;
+}
+.sliderWIDTH
+{
+  position: absolute;
+  top: -115px;
+  right: 435px;
+  z-index: -1;
+  width: 35% !important;
+}
+.custom_indicators
+{
+  position: relative;
+  left: -900px;
+  top: -185px;
+}
+.indicatorMARGIN
+{
+  position: relative;
+  left: 12px !important;
+  color: #f15632 !important;
+  font-size: 20px !important;
+  font-family: "Resolve-RegularNrw";
+  letter-spacing: 3px;
+}
+.indicatorMARGIN span
+{
+  position: relative;
+  left: 15px;
+}
+.carousel .control-dots
+{
+  top: 385px;
+  height: 5vh;
+}
+.contact-us
+{
+  position: relative;
+  top: -255px;
+  left: 550px;
+  font-size: 25px;
+  font-family: "Resolve-RegularNrw";
+  letter-spacing: 0.5px;
+  display:block;
+  -webkit-transform: rotate(90deg); 
+  -moz-transform: rotate(90deg); 
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+.contact-us:hover
+{
+  color: #f15632 !important;
+}
+.arrowWIDTH
+{
+  position: relative;
+  top: -3px !important;
+  left: 20px;
+  display:block;
+  -webkit-transform: rotate(-90deg) !important; 
+  -moz-transform: rotate(-90deg) !important; 
+  width: 25px !important;
+}
+.singleINDICATOR
+{
+  width: 75% !important;
+}
