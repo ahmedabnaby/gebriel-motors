@@ -2,10 +2,13 @@ import React from 'react';
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from 'react-responsive-carousel';
 import { Container,  Col, Row } from 'react-bootstrap';
+import ScrollAnimation from 'react-animate-on-scroll';
+import {Animated} from "react-animated-css";
+
 export default function Home() {
   return (
     <div>
-        <Carousel showThumbs={false} showStatus={false} showArrows={false} autoPlay renderIndicator={(clickHandler, isSelected,i) =>
+        <Carousel showThumbs={false} showStatus={false} showArrows={false} renderIndicator={(clickHandler, isSelected,i) =>
                 (<div className="custom_indicators ZINDEX">
                     {i===0&& (
                         <div>
@@ -68,9 +71,13 @@ export default function Home() {
             }>
           <Container fluid>
           <div className="carouselDIV">
+          <Animated animationIn="bounceInLeft" isVisible={true}>
+            <div>
               <h1><span>get right</span> to the good parts</h1>
               <h3>Head lines goes here</h3>
               <p>Con periore iunturi con cusdanducit ut experioris et unt volupta sitatemped quam est, aligent laboriorem. Oribusa pictur alique qui doloribeatus ad que consecumquam estrum verit facia num rem commolore, sae maionsed</p>
+            </div> 
+            </Animated>
           <Row className="rowWIDTH">
             <Col><img src="assets/images/icon1.png" className="iconWIDTH" alt=".."/></Col>
             <Col><img src="assets/images/icon2.png" className="iconWIDTH icon2" alt=".."/></Col>
@@ -79,9 +86,12 @@ export default function Home() {
           </Row>
             {/* <a href="/">Explore More Items</a> */}
             <h4>Explore More Items</h4>
+            <div>
             <a href="/" className="contact-us">contact us <img src="assets/images/arrow.png" className="arrowWIDTH" alt="..." /> </a>
-          
-          <img src="assets/images/slider1.png" alt=".." className="sliderWIDTH d-none-sm" />
+            </div>
+            <div>
+              <img src="assets/images/slider1.png" alt=".." className="sliderWIDTH d-none-sm" />
+              </div>
           </div>
           </Container>
           <Container fluid>
