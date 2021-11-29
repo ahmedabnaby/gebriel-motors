@@ -36,7 +36,7 @@
     display: none !important;
   }
 }
-@media only screen and (max-width: 320px)
+@media only screen and (max-width: 321px)
 {
   .navbar-dark .navbar-toggler
   {
@@ -107,14 +107,20 @@
   }
   .contact-us
   {
-    top: -415px;
-    left: 130px;
+    position: absolute;
+    top: 300px;
+    left: 0;
+    right: -91%;
     font-size: 15px;
   }
   .arrowWIDTH
   {
     width: 15px !important;
     left: 10px;
+  }
+  .custom_indicators
+  {
+    display: none;
   }
 }
 
@@ -189,14 +195,20 @@
   }
   .contact-us
   {
-    top: -355px;
-    left: 150px;
+    position: absolute;
+    top: 300px;
+    left: 0;
+    right: -88%;
     font-size: 25px;
   }
   .arrowWIDTH
   {
     width: 25px !important;
     left: 15px;
+  }
+  .custom_indicators
+  {
+    display: none !important;
   }
 }
 
@@ -271,14 +283,20 @@
   }
   .contact-us
   {
-    top: -225px;
-    left: 175px;
+    position: absolute;
+    top: 300px;
+    left: 0;
+    right: -88%;
     font-size: 25px;
   }
   .arrowWIDTH
   {
     width: 25px !important;
     left: 15px;
+  }
+  .custom_indicators
+  {
+    display: none;
   }
 }
 @media (min-width: 426px) and (max-width: 530px)
@@ -625,16 +643,17 @@
   {
     left: 42%;
     width: 40% !important;
-    margin-top: 130px;
+    margin-top: 0px;
     padding: 5px;
   }
   .carouselDIV h1
   {
-    margin-top: 0px;
-    font-size: 180px;
+    margin-top: 115px;
+    font-size: 160px;
     line-height: 155px;
     width: 70%;
-    padding: 13px;
+    padding: 0px;
+    margin-left: -10px;
   }
   .carouselDIV h3
   {
@@ -969,7 +988,7 @@
   .carouselDIV h1
   {
     margin-top: 150px !important;
-    font-size: 230px;
+    font-size: 200px;
     line-height: 175px;
     width: 70%;
     padding: 13px;
