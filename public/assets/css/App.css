@@ -140,21 +140,6 @@ html, body{
 {
   width: 15%;
 }
-/* .explore
-{
-  position: relative;
-  top: 55px;
-  left: -860px;
-  font-size: 19px;
-  font-family: 'Suisse Int-semi-bold';
-  width: 45%;
-  text-align: left;
-  color: rgb(94, 94, 94) !important;
-} */
-.explore:hover
-{
-  color: #f15632 !important;
-}
 .sliderWIDTH
 {
   position: absolute;
@@ -166,8 +151,8 @@ html, body{
 .custom_indicators
 {
   position: relative;
-  left: -900px;
-  top: -185px;
+  left: -47.7%;
+  top: -155px;
 }
 .indicatorMARGIN
 {
@@ -190,9 +175,10 @@ html, body{
 }
 .contact-us
 {
-  position: relative;
-  top: -255px;
-  left: 550px;
+  position: absolute;
+  top: 275px;
+  left: 0;
+  right: -58%;
   font-size: 25px;
   font-family: "Resolve-RegularNrw";
   letter-spacing: 0.5px;

@@ -5,7 +5,7 @@ import { Container,  Col, Row } from 'react-bootstrap';
 export default function Home() {
   return (
     <div>
-        <Carousel showThumbs={false} showStatus={false} showArrows={false} autoPlay renderIndicator={(clickHandler, isSelected,i) =>
+        <Carousel showThumbs={false} showStatus={false} showArrows={false} renderIndicator={(clickHandler, isSelected,i) =>
                 (<div className="custom_indicators ZINDEX">
                     {i===0&& (
                         <div>
@@ -81,12 +81,12 @@ export default function Home() {
             <h4>Explore More Items</h4>
             <a href="/" className="contact-us">contact us <img src="assets/images/arrow.png" className="arrowWIDTH" alt="..." /> </a>
           
-          <img src="assets/images/slider1.png" alt=".." className="sliderWIDTH" />
+          <img src="assets/images/slider1.png" alt=".." className="sliderWIDTH d-none-sm" />
           </div>
           </Container>
           <Container fluid>
           <div className="carouselDIV">
-              <h1><span>Value is</span> to the good parts</h1>
+              <h1><span>Value is</span> to  <br/>the good parts</h1>
               <h3>Head lines goes here</h3>
               <p>Con periore iunturi con cusdanducit ut experioris et unt volupta sitatemped quam est, aligent laboriorem. Oribusa pictur alique qui doloribeatus ad que consecumquam estrum verit facia num rem commolore, sae maionsed</p>
           <Row className="rowWIDTH">
