@@ -5,7 +5,7 @@ import { Container,  Col, Row } from 'react-bootstrap';
 export default function Home() {
   return (
     <div>
-        <Carousel showThumbs={false} showStatus={false} showArrows={false} renderIndicator={(clickHandler, isSelected,i) =>
+        <Carousel showThumbs={false} showStatus={false} showArrows={false} autoPlay renderIndicator={(clickHandler, isSelected,i) =>
                 (<div className="custom_indicators ZINDEX">
                     {i===0&& (
                         <div>
